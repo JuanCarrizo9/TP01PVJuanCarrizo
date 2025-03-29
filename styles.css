@@ -6,6 +6,7 @@
 
 header{
     background-color: cornflowerblue;
+    border: 1px solid black;
     color: black;
     display: flex;
     justify-content: center;
@@ -14,8 +15,9 @@ header{
     height: 8rem;
 }
 
+
 main{
-    margin-top: .5rem;
+    margin-top: 1rem;
     
 }
 
@@ -27,9 +29,34 @@ main .intro h2{
     text-align: center;
 }
 
-.nav{
-    background-color: yellow;
+nav{
+    border-bottom: 1px solid black;
 }
+
+.nav {
+    background-color: cornflowerblue;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Asegura que la lista ocupe todo el ancho */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.nav a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
 
 .intro{
     padding: 1rem;

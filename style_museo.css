@@ -1,0 +1,33 @@
+
+main{
+    background-color: beige;
+    margin: 1rem;
+}
+
+.contenedores-1{
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.museo-1,
+.museo-2,
+.museo-3,
+.museo-4{
+    border: 1px solid black;
+    padding: 1rem;
+    width: 12rem;
+    height: auto;
+
+}
+
+@media (max-width: 768px) {
+    .contenedores-1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
