@@ -1,7 +1,13 @@
 
 main{
     background-color: beige;
+    border: 1px solid gray;
+    border-radius: 1rem;
     margin: 1rem;
+}
+
+main h2{
+    text-align: center;
 }
 
 .contenedores-1{
@@ -18,7 +24,8 @@ main{
 .museo-2,
 .museo-3,
 .museo-4{
-    border: 1px solid black;
+    border: 1px solid gray;
+    border-radius: 1rem;
     padding: 1rem;
     width: 12rem;
     height: auto;
