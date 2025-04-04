@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./style-formulario.css">
+    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="../Styles/style-formulario.css">
+    <script defer src="../Js/main.js"></script>
 </head>
 <body>
 
@@ -16,9 +17,9 @@
     <nav>
         <div class="nav">
             <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/museos.html">Museos Disponibles</a></li>
-                <li><a href="/contacto.html">Contacto</a></li>
+                <li><a href="/html/index.html">Inicio</a></li>
+                <li><a href="/html/museos.html">Museos Disponibles</a></li>
+                <li><a href="/html/contacto.html">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -31,9 +32,17 @@
             <input id="nombreApellido" type="text">
             <label for="correo">Correo</label>
             <input type="email" name="email" id="correo">
+            <label for="nacionalidad">Seleccione su nacionalidad:</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="México">México</option>
+            </select>
             <label for="mensaje">Mensaje</label>
             <input class="input-mensaje" type="text" id="mensaje">
-            <button type="submit">Enviar</button>
+            <button id="btn" type="submit">Enviar</button>
         </div>
     </div>
     </form>
