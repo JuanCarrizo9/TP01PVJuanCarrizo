@@ -9,7 +9,10 @@ html{
 }
 
 header{
-    background-color: cornflowerblue;
+    background-image: url(./Macedonia\(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
     border-bottom: 1px solid black;
     color: black;
     display: flex;
